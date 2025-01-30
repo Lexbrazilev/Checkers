@@ -1,19 +1,27 @@
 {
     "WindowSize": {
+        "_comment": "Раздел настроек размера окна, width отвечает за ширину окна в пикселях, hight отвечает за ширину окна в пикселях",
         "Width": 0,
         "Hight": 0
     },
     "Bot": {
+        "_comment": "IsWhiteBot и IsBlackBot указывают за какой цвет играет бот и игрок",
         "IsWhiteBot": false,
         "IsBlackBot": true,
+        "_comment1": "WhiteBotLevel и BlackBotLevel это уровень сложности бота",
         "WhiteBotLevel": 0,
         "BlackBotLevel": 5,
+        "_comment2": "BotScoringType это оценка состояния бота насколько он в выгодном положении",
         "BotScoringType": "NumberAndPotential",
+        "_comment3": "BotDelayMS это задержка между ходами бота",
         "BotDelayMS": 0,
+        "_comment4": "NoRandom отвечает за использования случайности в ходах бота, флаг true отключает рандом",
         "NoRandom": false,
+        "_comment5": "Optimization отвечает за оптимизацию алгоритма бота на сколько быстро он будет выполнять свои ходы за счет урезаниея своих просчетов хода",
         "Optimization": "O1"
     },
     "Game": {
+        "_comment": "MaxNumTurns указывает через сколько ходов наступит ничья",
         "MaxNumTurns": 120
     }
 }
